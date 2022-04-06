@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>RZ Resto-Transaksi</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet">
+        <Link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <div class="header">
+            <h2>RZ Resto</h2>
+            <div class="menu">
+                <a href="halamanHome.html"><b>Home</b></a>
+                <a href="halamanTransaksi.html"><b>Transaksi</b></a>
+                <a href="halamanUploadFoto.html"><b>Tambah Foto</b></a>
+            </div>
+        </div>
+
+        <div class="formTransaksi">
+            <h3>Hitung Transaksi</h3>
+            <br><br>
+            <form method="post" action="Transaksi.php">
+            <label> Pembeli &emsp;&emsp;&emsp;:
+            </label><input type="text" name="pembeli"><br><br>
+
+            <label> Status Pembeli :
+            </label><select name="status">
+                <option>Member</option>
+                <option>Non-Member</option> </select>
+
+            <br><br>
+
+            <label>Menu &emsp;&emsp;&emsp;&emsp;:</label><select name="menu">
+                <option>Paket 1 (20.000)</option>
+                <option>Paket 2 (30.000)</option>
+                <option>Paket 3 (50.000)</option> </select>
+            <br><br>
+            <label> Jumlah &emsp;&emsp;&emsp;:</label> <input type="number" name="jumlah"><br><br>
+            <input type="submit" name="HITUNG" value="HITUNG">
+            </form>
+        </div>   
+
+        <div class="footer">
+            <h4 style="text-align: center;">Copyright &copy; 2022 Oleh Rizqi Zamzami Jamil</h4>
+            <h4>Jl. Merdeka No 26. Meikarta City</h4>
+            <h4>082147083442</h4>
+        <br>
+        </div>
+    </body>
+<html>        
